@@ -6,8 +6,8 @@ Library with useful classes that use Double instead of Float, with the same use 
 
 Supported classes are:
 * **PointD** - represents 2D points that uses Double values for x and y properties
-* **RectD** - represents rectangle that uses Double values for top,left,right and bottom properties
-* **MatrixD** - wraper over the Matrix class from the 'android.graphics' package that uses Double values
+* **RectD** - represents rectangle that uses Double values for top, left, right and bottom properties
+* **MatrixD** - wrapper over the Matrix class from the 'android.graphics' package that uses Double values
 
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
@@ -31,7 +31,7 @@ dependencies {
 ```
  
 ### How to use
-Creating object from the supported classes is the same way as those from 'android.graphics' package. Visit the official documentation on the android site to see suported methods and their use [PointF](https://developer.android.com/reference/android/graphics/PointF), [RectF](https://developer.android.com/reference/android/graphics/RectF), [Matrix](https://developer.android.com/reference/android/graphics/Matrix)
+Creating object from the supported classes is the same way as those from 'android.graphics' package. Visit the official documentation on the android site to see supported methods and their use [PointF](https://developer.android.com/reference/android/graphics/PointF), [RectF](https://developer.android.com/reference/android/graphics/RectF), [Matrix](https://developer.android.com/reference/android/graphics/Matrix)
  ```kotlin
 
 // create point
